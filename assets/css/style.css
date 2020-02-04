@@ -1,0 +1,153 @@
+body {
+  font-family: "lato", sans-serif;
+}
+
+/* ---------------logo */
+.center {
+  display: inline-block;
+  width: 10%;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+.tagline-1 {
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 10%;
+}
+.parallax {
+  background-image: url("../images/placeholder_drums.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Disable parallax scrolling for all tablets and phones */
+@media only screen and (max-width: 600px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.container-middle {
+  padding-top: 10px;
+}
+.container-middle p {
+  font-size: 1.2rem;
+}
+
+.parallax2 {
+  background-image: url("../images/Jaqui_Patricia.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Disable parallax scrolling for all tablets and phones */
+@media only screen and (max-width: 600px) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
+}
+
+.display-4 {
+  color: #2f2f33;
+}
+.jumbotron p {
+  color: #2f2f33;
+}
+.vumc_link {
+  color: #1f2c69;
+  font-weight: bolder;
+}
+
+/* -------------------------Footer */
+.footer_titles {
+  color: #fafafa;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footer_titles:hover {
+  color: #88898b;
+}
+
+.inline-block {
+  color: #bdbdbd;
+  text-align: justify;
+  position: relative;
+  line-height: 5px;
+}
+
+.fa-ul li {
+  color: #bdbdbd;
+  text-align: justify;
+  position: relative;
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  list-style: none;
+  font-size: 1rem;
+  left: -1em;
+}
+
+footer {
+  background-color: #2f2f33;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
+}
+
+
+.social-links {
+  padding-bottom: 15px;
+}
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #fafafa;
+  background: #5a5959;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #3b3c41;
+}
+
+#footer-details {
+  padding: 20px;
+}
+
+.copyright {
+  color: #bdbdbd;
+  text-align: justify;
+  position: relative;
+  list-style-type: none;
+  text-align: left;
+  padding-bottom: 15px;
+  margin: 0;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.col-sm-12 {
+  text-align: center;
+  color: #88898b;
+}
+.col-sm p {
+  padding-left: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+}
